@@ -1,0 +1,29 @@
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Centering container */
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Optional background */
+  }
+  
+  /* Optional: add video max width */
+  video {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  

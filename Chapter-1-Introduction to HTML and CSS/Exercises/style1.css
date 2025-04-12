@@ -1,0 +1,71 @@
+/* Set all margins and paddings to 0, and apply border-box for consistent sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the other styles for the body */
+  body {
+    font-family: Arial, sans-serif;        
+    background-color: #acdec7;            /* Light greenish background */
+    line-height: 1.6;                       /* Adds text spacing */
+    color: #222;                          /* Dark grey text for readability */
+    padding: 20px;                          /* Adds space around the page content */
+  }
+  
+  /* Align the header to the center and add spacing below */
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  /* Style for h1 */
+  h1 {
+    font-size: 2.5em;                       
+    color: #17072b;                       /* Deep purple color */
+  }
+  
+  /* Style for h2 */
+  h2 {
+    color: #02a974;                       /* Bright teal/green for contrast */
+    margin-top: 30px;                       /* Space above section titles */
+  }
+  
+  /* Style for h3 */
+  h3 {
+    margin: 20px 0 5px;                      /* Spacing above and below */
+    color: #333;                           /* Dark gray text */
+  }
+  
+  /* Style for preformatted text */
+  pre {
+    background-color: #eee;                 /* Light gray background */
+    padding: 10px;                            /* Inner spacing */
+    border-left: 4px solid #02a974;         /* Green bar for visual emphasis */
+    overflow-x: auto;                         /* Adds horizontal scroll for long lines */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    margin-bottom: 20px;                      /* Space below each code block */
+  }
+  
+  /* Style for inline code */
+  code {
+    color: #d63384;                         /* Pink/purple text  */
+  }
+  
+  /* Adds top margin to each section for spacing */
+  section {
+    margin-top: 40px;
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 40px;                       /* Space before footer */
+    text-align: center;                     /* Align text to center*/
+    background-color: #02a974;            /* Teal background */
+    color: white;                         /* White text */
+    padding: 15px;                          /* Inner spacing */
+    border-radius: 5px;                     /* Rounded corners for a softer look */
+  }
+  
+  
