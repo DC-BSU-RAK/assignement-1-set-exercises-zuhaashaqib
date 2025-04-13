@@ -1,0 +1,84 @@
+/* Reset default margin, padding, and set box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the entire page body */
+  body {
+    font-family: Arial, sans-serif;    /* Sets the default font */
+    line-height: 1.6;                  /* Increases line spacing */
+    background-color: #3e1010;       /* Dark red background */
+    color: #222;                    /* Default text color */ 
+  }
+  
+  /* Style for the header section at the top */
+  header {
+    background-color: #000;         /* Black background */
+    color: #fff;                    /* White text */
+    padding: 20px;                    /* Padding inside the header */
+    text-align: center;               /* Align the header content to the center */
+  }
+
+/* Extra spacing under the main title */
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation bar styles */
+  .nav {
+    display: flex;                 /* Lays out navigation links in a row */
+    justify-content: center;       /* Centers them horizontally */
+    list-style: none;              /* Removes bullet points */
+    gap: 20px;                     /* Adds space between links */
+    margin-top: 10px;              /* Adds space above the navigation bar */
+  }
+  
+/* Adds space above the navigation bar */
+  .nav a {
+    text-decoration: none;         /* Removes underline */
+    color: #c0a8a8;              /* Light brown text color */
+    font-weight: bold;             /* Makes text bold */
+  }
+  
+  /* Hover effect for navigation links */
+  .nav a:hover {
+    color: #ff4444;             /* Red color on hover */
+
+  }
+
+  /* Style for each content section */
+  .section {
+    padding: 40px 20px;                 /* Top/bottom and side padding */
+    max-width: 800px;                   /* Limits how wide each section can be */
+    margin: auto;                       /* Centers the section horizontally */
+    background-color: #c0a8a8;        /* Light brown background */
+    margin-bottom: 20px;                /* Space below each section */
+    border-left: 4px solid #030303;   /* Black left border for accent */
+  }
+  
+  /* Style for the link that looks like a button */
+  .button {
+    display: inline-block;             /* Makes the link behave like a button */
+    background-color: #3e1010;       /* Dark red background */
+    color: white;                    /* White text */
+    padding: 10px 20px;                /* Padding inside the button */
+    text-decoration: none;             /* No underline */
+    font-weight: bold;                 /* Bold text */
+    border-radius: 5px;                /* Slightly rounded corners */
+    text-align: center;                /* Center the button text */
+  }
+  
+  /* Hover effect for the button */
+  .button:hover {
+    background-color: #ff4444;       /* Changes background to bright red */
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;                /* Centers the text */
+    background-color: #000;          /* Black background */
+    color: white;                    /* White text */
+    padding: 15px;                     /* Padding inside the footer */
+  }
