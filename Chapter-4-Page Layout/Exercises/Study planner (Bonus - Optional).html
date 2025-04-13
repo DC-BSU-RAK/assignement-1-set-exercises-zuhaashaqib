@@ -1,0 +1,69 @@
+<!DOCTYPE html>                    <!-- Declares that the document uses HTML5 -->
+<html lang="en">                   <!-- Starts the HTML document and sets language to English -->
+<head>
+  <meta charset="UTF-8" />                         <!--UTF-8 : Allows special characters (like emojis & accents).-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />     <!-- Viewport Meta : Ensures mobile-friendliness & correct scaling.-->
+  <title>Study Planner - Web Dev Module</title>    <!-- Sets the title shown in the browser tab -->
+  <link rel="stylesheet" href="style2.css" />      <!-- Links to external CSS file -->
+</head>
+<body>
+
+  <!-- Header with the browser title -->
+  <header>
+    <h1><b><i> 🗒️ Web Development Study Planner</i></b></h1>     <!-- 'b' and 'i' tags to make text bold and italic-->
+  </header>
+
+  <!-- Navigation menu -->
+  <nav>
+    <ul class="nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Schedule</a></li>
+      <li><a href="#">Tasks</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content area with 3 columns made using class -->
+  <main class="main-content">
+    
+    <!-- Column 1: Weekly Plan -->
+    <section class="column">
+      <h2>Weekly Plan</h2>
+      <ul>
+        <li>HTML Basics</li>
+        <li>HTML Images</li>
+        <li>HTML Classes and IDs</li>
+      </ul>
+    </section>
+
+    <!-- Column 2: To-Do List using another class -->
+    <section class="column">
+      <h2>To-Do List</h2>
+      <ul>
+        <li>✅ Complete mock-up</li>                    <!-- Emoji added to show check marks -->
+        <li>✅ Finish revision</li>
+        <li>✅ Add comments</li>
+        <li>⬜ Make final changes to project</li>
+        <li>⬜ Submit project</li>
+      </ul>
+      <a href="#" class="button">Mark All Complete</a>   <!--Adding a button using class to mark completed tasks-->
+    </section>
+
+    <!-- Column 3: Imp Points using another class -->
+    <section class="column">
+      <h2>Important Points</h2>
+      <p>- Images are not technically inserted into a web page; images are linked to web pages. Tags are used to insert images.</p>
+      <p>- The HTML style attribute is used to add styles to an element, such as color, font, size, and more.</p>
+      <p>- The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer at the end -->
+  <footer>
+    <p>&copy; 2025 Creative Computing | Web Development Module</p>     <!-- Using '&copy' for copyright symbol-->
+  </footer>
+
+</body>
+</html>

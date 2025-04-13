@@ -1,0 +1,59 @@
+<html lang="en">                 <!-- Starts the HTML document and sets language to English -->            
+<head>
+    <meta charset="UTF-8">       <!--UTF-8 : Allows special characters (like emojis & accents).-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        <!-- Viewport Meta : Ensures mobile-friendliness & correct scaling.-->
+    <title>Structuring a webpage</title>                                          <!-- Sets the title shown in the browser tab -->
+    <link rel="stylesheet" href="style.css">                                      <!-- Links to external CSS file -->
+</head>
+<body>
+
+    <!-- Using a class to create main container for the header and navigation bar-->
+    <div class="box">
+    <h1 class="header">DIGI FEST 2022</h1>     <!--Ttile of website-->
+
+    <!-- Navigation bar made using class showing unordered list-->
+    <ul class="navbar">
+        <li>Home</li>
+        <li>About</li>
+        <li>What's On</li>
+        <li>Contact</li>
+        <li>Tickets</li>
+    </ul>
+</div>
+
+<!-- Main body section of the page -->
+<div class="body">
+
+    <h2>Welcome</h2>
+    <!-- Description paragraph with 'br' tags for line breaks -->
+    <p>Digi Fest is a celebration of digital and technology in the city of Cardiff. This year, we are<br>celebrating ‘collaboration’, so come and find out about the latest collaborations that are<br> happening in this historic and innovative city. They promise an educational and<br> inspirational packed programme for all.</p>
+    <img src="image1.png" alt="image">       <!-- Using 'img' tag to input image related to the welcome section -->
+
+
+    <!--The class named 'aside' is used for styling in CSS like positioning it to the right side and adjusting the space.-->
+    <div class="aside">
+        <aside>
+            <h1 class="lineup">Line Up</h1>
+        </aside>
+
+        <!-- Unordered list of session topics -->
+        <ul>
+            <li>-Introduction to HTML and CSS</li>
+            <li>-Links and images</li>
+            <li>-Page Layout</li>
+        </ul>
+
+        <!-- More images added using 'img' tags and by using classes -->
+        <img class="img2" src="image2.png" alt="image">
+        <img class="img3" src="image3.png" alt="image">
+    </div>
+
+</div>
+
+<!-- Footer at the end -->
+<footer>
+    <p>&copy; 2022 DigiFest Ltd.</p>      <!-- Using '&copy' for copyright symbol-->
+  </footer>
+
+</body>
+</html>
