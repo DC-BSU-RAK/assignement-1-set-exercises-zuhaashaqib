@@ -1,0 +1,28 @@
+/* Styling for "div1" */
+#div1 {
+    border-color: darkorchid;                 /* Changing border color to darkorchid */
+    box-shadow: 10px 10px 20px red;           /* Adding red shadow*/
+}
+
+/* Styling for "div2" */
+#div2 {
+    border-color: greenyellow;                /* Setting border color to greenyellow */
+    box-shadow: inset 10px 10px 10px black;   /* Adding internal black shadow */
+}
+
+/* Styling for "div3" */
+#div3 {
+    border-color: white;                     /* Sets border color to white */
+    border-radius: 20px;                       /* Rounding the corners */
+    box-shadow:  
+        0 0 0 4px orange,                    /* First border: orange */
+        0 0 0 15px  blue,                    /* Second border: blue */
+        0 0 0 25px red,                      /* Third border: red */
+        0 0 0 35px green;                    /* Fourth border: green */
+}
+
+/* Styling for "div4" */
+#div4 {
+    border-color: maroon;                    /* Setting border color to yellow */
+    text-shadow: 6px 6px 1.5px black;        /* Adding black shadow to text */
+}
