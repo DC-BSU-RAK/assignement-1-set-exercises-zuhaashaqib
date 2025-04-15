@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>                  <!-- Declares that the document uses HTML5 -->
+<html lang="en">                 <!-- Starts the HTML document and sets language to English -->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Embedded Video</title>
   <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />       <!--UTF-8 : Allows special characters (like emojis & accents).-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>      <!-- Viewport Meta : Ensures mobile-friendliness & correct scaling.-->
+  <title>Embedded Video</title>      <!-- Sets the title shown in the browser tab -->
+  <link rel="stylesheet" href="style.css" />     <!-- Links to external CSS file -->
 </head>
 <body>
   <div class="video-container">
     <video controls loop poster="video-poster.jpg">
       <source src="rain-loop.mp4" type="video/mp4" />
       Your browser does not support the video tag.
+
+  <!-- Div class to style and position the video -->
+  <div class="video">     
+    <video controls loop poster="video-poster.jpg">        <!-- Video element with controls, to loop video and a poster image -->
+      <source src="rain-loop.mp4" type="video/mp4" />      <!-- Source of the video file -->
+      Your browser does not support the video tag.         <!-- Message for browsers that don't support the video element -->
     </video>
   </div>
 </body>
-</html>
+</html></html>
