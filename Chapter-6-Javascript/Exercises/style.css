@@ -1,0 +1,40 @@
+/* Main body styling */
+body {
+    font-family: "Special Gothic Expanded One", sans-serif;   /* Adding font from google fonts*/
+    font-weight: 400;
+    font-style: normal;
+    /* Adding image using direct url */
+    background: url('https://images.unsplash.com/photo-1656019206311-8ba4153cfefb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+    color: #040404;
+  }
+
+  /* Input fields styling */
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+
+  /* Button styling */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #f16f05;
+    color: white;
+  }
+  
+  /* Total cost display styling */
+  #totalAmountText {
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgb(241, 111, 5);
+  }
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>               <!-- Declares that the document uses HTML5 -->
+<html lang="en">              <!-- Starts the HTML document and sets language to English -->
+<head>
+  <meta charset="UTF-8" />    <!--UTF-8 : Allows special characters (like emojis & accents).-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>      <!-- Viewport Meta : Ensures mobile-friendliness & correct scaling.-->
+  <title>Petrol Price Calculator</title>       <!-- Sets the title shown in the browser tab -->
+  <link rel="stylesheet" href="style.css" />   <!-- Links to external CSS file -->
+  <!-- Links to Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Page heading using heading tag -->
+  <h1>⛽ Petrol Price Calculator</h1>
+
+  <!-- Label and input for petrol price -->
+  <label for="Petrol_Price">Enter Petrol Price per Liter:</label><br>
+
+  <!--  Using input function with 'number' as data type so that user can enter any number -->
+  <input type="number" id="Petrol_Price" placeholder="e.g. 1.72"><br>    <!-- Using 'placeholder' which will display an example -->
+
+
+  <!-- Label and input for petrol price -->
+  <label for="liters">Enter Liters:</label><br>
+
+  <!--  Using input function with 'number' as data type so that user can enter any number -->
+  <input type="number" id="liters" placeholder="e.g. 0"><br>           <!-- Using 'placeholder' which will display an example -->
+
+
+  <!-- Calculate button -->
+  <button onclick="calculate()">Calculate Total</button>
+
+  <!-- Total cost display area -->
+<p id="totalAmountText" style="display: none;">
+    Total Amount: $<span id="totalAmount">0</span>
+  </p>
+  
+
+
+<!-- JavaScript section -->
+  <script>
+  function calculate() {
+    const Petrol_Price = document.querySelector('#Petrol_Price').value;
+    const liters = document.querySelector('#liters').value;
+
+    // Using if statement to proceed only if both inputs have values
+    if (!Petrol_Price || !liters) return;
+
+    const total = (Petrol_Price * liters).toFixed(2);
+
+    // Update the text and make the result visible
+    document.querySelector('#totalAmount').innerText = total;
+    document.querySelector('#totalAmountText').style.display = 'block';
+  }
+</script>
+
+
+
+</body>
+</html>
